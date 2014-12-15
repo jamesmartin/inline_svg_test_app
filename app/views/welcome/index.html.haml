@@ -1,0 +1,13 @@
+%h1 Inline SVG Tests
+%p You'll find all SVGs in app/assets/images/
+
+%section
+  %h2 Basic SVG With no Options
+  .svg
+    = inline_svg('iconmonstr-glasses-12-icon.svg')
+  %h2 SVG With CSS Class
+  .svg
+    = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'little-red')
+  %h2 SVG With Title and Description
+  .svg
+    = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture')
