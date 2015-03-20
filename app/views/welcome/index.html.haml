@@ -14,3 +14,7 @@
   %h2 SVG With Comments Removed
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-yellow', title: 'An SVG, scrubbed', desc: 'This is my SVG. There are many like it. You get the picture', nocomment: true)
+  %h2 Missing SVG File
+  %p (Check the page source to see the output)
+  .svg
+    = inline_svg('some-missing-file.svg')
