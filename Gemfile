@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '4.1.9'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -29,7 +29,7 @@ gem 'spring',        group: :development
 gem 'haml'
 
 # Use a local path for testing the gem as you're developing
-#gem 'inline_svg', path: '~/dev/jamesmartin/inline_svg/'
+#gem 'inline_svg', path: '~/dev/inline_svg/'
 gem 'inline_svg'
 
 # Use ActiveModel has_secure_password
