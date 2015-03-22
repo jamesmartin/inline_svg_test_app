@@ -11,6 +11,9 @@
   %h2 SVG With Title and Description
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture')
+  %h2 SVG With Width and Height Attributes
+  .svg
+    = inline_svg('iconmonstr-glasses-12-icon.svg', size: '15% * 20%')
   %h2 SVG With Comments Removed
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-yellow', title: 'An SVG, scrubbed', desc: 'This is my SVG. There are many like it. You get the picture', nocomment: true)
