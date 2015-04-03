@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module InlineSvgTestApp
   class Application < Rails::Application
+    config.assets.compile = true  # Allow Sprockets to initialize itself and serve assets.
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
