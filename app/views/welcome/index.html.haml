@@ -37,3 +37,7 @@
   %h2 Preserve Aspect Ratio
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', preserve_aspect_ratio: 'xMaxYMax meet')
+  %h2 Custom Transformation
+  .svg
+    %p (Check the page source to see the 'custom' attribute attached to the SVG)
+    = inline_svg('iconmonstr-glasses-12-icon.svg', custom: 'some value')
