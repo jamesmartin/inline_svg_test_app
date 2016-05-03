@@ -17,6 +17,9 @@
   %h2 SVG With Title and Description
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture')
+  %h2 SVG With Accessibility Labels (Aria)
+  .svg
+    = inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture', aria: true)
   %h2 SVG With Size (Height & Width) Attribute
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', size: '15% * 20%')
