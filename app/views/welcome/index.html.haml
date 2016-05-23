@@ -44,8 +44,15 @@
   .svg
     %p (Check the page source to see the 'custom' attribute attached to the SVG)
     = inline_svg('iconmonstr-glasses-12-icon.svg', custom: 'some value')
+  %h2 Custom Transformation 2
+  .svg
+    %p (Check the page source to see the 'custom' attribute attached to the SVG)
+    = inline_svg('iconmonstr-glasses-12-icon.svg')
   %h2 Using IO Objects
   .svg
     - fd = IO.sysopen(Rails.root.join("app/assets/images/iconmonstr-glasses-12-icon.svg"), "r")
     - io = IO.new(fd, "r")
     = inline_svg(io, class: 'medium-blue')
+  %h2 Custom Transformation With Default Value
+  .svg
+    = inline_svg('iconmonstr-glasses-12-icon.svg')
