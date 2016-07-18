@@ -37,6 +37,10 @@
   %p (Check the page source to see the output)
   .svg
     = inline_svg('some-missing-file.svg')
+  %h2 Missing SVG File With Extension Hint
+  %p (Check the page source to see the output)
+  .svg
+    = inline_svg('some-missing-file')
   %h2 Preserve Aspect Ratio
   .svg
     = inline_svg('iconmonstr-glasses-12-icon.svg', preserve_aspect_ratio: 'xMaxYMax meet')
