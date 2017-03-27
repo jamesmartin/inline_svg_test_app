@@ -21,8 +21,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
-gem 'haml'
-
 # Use a local path for testing the gem as you're developing
 #gem 'inline_svg', path: '~/dev/inline_svg/'
 gem 'inline_svg'
