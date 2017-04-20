@@ -16,8 +16,22 @@ class AssetFinder
 end
 
 InlineSvg.configure do |config|
+  # Example of using a custom asset file:
   #config.asset_file = AssetFile.new
+
+  # Example of using a custom asset finder:
   #config.asset_finder = AssetFinder.new
+
+  # Example of using boot-time cached asset files
+  #config.asset_file = InlineSvg::CachedAssetFile.new(
+  #  paths: [
+  #    Rails.root.join("app", "assets", "images"),
+  #    Rails.root.join("public")
+  #  ],
+  #  filters: /\.svg/
+  #)
+
+  # Examples of using cusotm transformations
   config.add_custom_transformation(attribute: :custom, transform: MyCustomTransform)
   config.add_custom_transformation(attribute: :default, transform: DefaultTransform, default_value: 'some-default')
 end
