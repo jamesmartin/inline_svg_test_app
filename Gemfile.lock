@@ -54,7 +54,7 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.8.1)
-    inline_svg (1.1.0)
+    inline_svg (1.2.0)
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     jbuilder (2.6.3)
