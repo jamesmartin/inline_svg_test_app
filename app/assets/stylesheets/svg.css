@@ -1,0 +1,15 @@
+.svg .little-red {
+  width: 5em;
+  height: 5em;
+  fill: red;
+}
+.svg .medium-blue {
+  width: 7em;
+  height: 7em;
+  fill: blue;
+}
+.svg .medium-yellow {
+  width: 7em;
+  height: 7em;
+  fill: yellow;
+}

@@ -6,12 +6,7 @@ gem 'rails', '6.0.0.rc1'
 
 # Use edge Sprockets-rails for testing
 #gem 'sprockets-rails', github: 'rails/sprockets-rails'
-# Use edge Sass for testing
-#gem 'sass-rails', github: 'rails/sass-rails'
-gem 'sass-rails'
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails'
-
+#
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
