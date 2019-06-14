@@ -15,7 +15,7 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import '../src/foo.js'
+import '../src/javascripts/foo.js'
 import Rails from 'rails-ujs'
 import Turbolinks from 'turbolinks'
 

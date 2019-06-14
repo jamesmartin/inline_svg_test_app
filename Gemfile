@@ -14,8 +14,6 @@ gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 
-gem 'jquery-rails'
-gem 'turbolinks'
 gem 'jbuilder'
 
 # Use a local path for testing the gem as you're developing
