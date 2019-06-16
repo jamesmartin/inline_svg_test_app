@@ -1,7 +1,7 @@
 A Rails application for testing the
 [inline_svg](https://github.com/jamesmartin/inline_svg) gem locally.
 
-* SVGs live in ./app/assets/images/
+* SVGs live in ./app/webpacker/images/
 
 There are long-lived branches for different major Rails versions (to check
 compatibility):
