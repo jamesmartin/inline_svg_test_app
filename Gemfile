@@ -11,6 +11,7 @@ gem 'rails', '6.0.0.rc1'
 gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
+gem 'sassc-rails'
 
 gem 'jquery-rails'
 gem 'turbolinks'
