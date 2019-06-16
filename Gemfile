@@ -21,3 +21,4 @@ gem 'jbuilder'
 gem 'inline_svg'
 
 gem 'pry'
+gem 'rb-readline'
