@@ -12,6 +12,8 @@ gem 'sass-rails'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails'
 
+gem 'rails_12factor', group: :production
+
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
