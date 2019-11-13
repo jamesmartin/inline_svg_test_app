@@ -64,9 +64,9 @@ GEM
     execjs (2.7.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.6.0)
+    i18n (1.7.0)
       concurrent-ruby (~> 1.0)
-    inline_svg (1.5.2)
+    inline_svg (1.6.0)
       activesupport (>= 3.0)
       nokogiri (>= 1.6)
     jbuilder (2.9.1)
@@ -82,9 +82,9 @@ GEM
     mimemagic (0.3.3)
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
-    minitest (5.11.3)
+    minitest (5.13.0)
     nio4r (2.3.1)
-    nokogiri (1.10.3)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -143,7 +143,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
-    zeitwerk (2.1.9)
+    zeitwerk (2.2.1)
 
 PLATFORMS
   ruby
