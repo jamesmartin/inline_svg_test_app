@@ -7,93 +7,93 @@
 <section>
   <h2>Basic SVG With no Options</h2>
   <div class="svg">
-    <%= inline_svg("iconmonstr-glasses-12-icon.svg") %>
+    <%= inline_svg_tag("iconmonstr-glasses-12-icon.svg") %>
   </div>
 
   <h2>SVG With CSS Class</h2>
   <div class="svg">
-    <%= inline_svg("iconmonstr-glasses-12-icon.svg", class: "little-red") %>
+    <%= inline_svg_tag("iconmonstr-glasses-12-icon.svg", class: "little-red") %>
   </div>
 
   <h2>SVG With ID Attribute</h2>
   <div class="svg">
-    <%= inline_svg("iconmonstr-glasses-12-icon.svg", id: "some-id") %>
+    <%= inline_svg_tag("iconmonstr-glasses-12-icon.svg", id: "some-id") %>
   </div>
 
   <h2>SVG With Data Attributes</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', data: {some: "value", another: "thing"}) %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', data: {some: "value", another: "thing"}) %>
   </div>
 
   <h2>SVG With Title and Description</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture') %>
   </div>
 
   <h2>SVG With Accessibility Labels (Aria)</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture', aria: true, aria_hidden: true) %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', class: 'medium-blue', title: 'An SVG', desc: 'This is my SVG. There are many like it. You get the picture', aria: true, aria_hidden: true) %>
   </div>
 
   <h2>SVG With Size (Height &amp; Width) Attribute</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', size: '15% * 20%') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', size: '15% * 20%') %>
   </div>
 
   <h2>SVG With Separate Width and Height Attributes</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', width: '15%', height: '20%') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', width: '15%', height: '20%') %>
   </div>
 
   <h2>Size, Width &amp; Height</h2>
   <p>Height and Width always take precedence over Size.</p>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', size: '15% * 20%', width: '25%') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', size: '15% * 20%', width: '25%') %>
   </div>
 
   <h2>SVG With Comments Removed</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', class: 'medium-yellow', title: 'An SVG, scrubbed', desc: 'This is my SVG. There are many like it. You get the picture', nocomment: true) %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', class: 'medium-yellow', title: 'An SVG, scrubbed', desc: 'This is my SVG. There are many like it. You get the picture', nocomment: true) %>
   </div>
 
   <h2>Missing SVG File</h2>
   <p>(Check the page source to see the output)</p>
   <div class="svg">
-    <%= inline_svg('some-missing-file.svg') %>
+    <%= inline_svg_tag('some-missing-file.svg') %>
   </div>
 
   <h2>Missing SVG File With Extension Hint</h2>
   <p>(Check the page source to see the output)</p>
   <div class="svg">
-    <%= inline_svg('some-missing-file') %>
+    <%= inline_svg_tag('some-missing-file') %>
   </div>
 
   <h2>Preserve Aspect Ratio</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', preserve_aspect_ratio: 'xMaxYMax meet') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', preserve_aspect_ratio: 'xMaxYMax meet') %>
   </div>
 
   <h2>Custom Transformation</h2>
   <div class="svg">
     <p>(Check the page source to see the 'custom' attribute attached to the SVG)</p>
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg', custom: 'some value') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg', custom: 'some value') %>
   </div>
 
   <h2>Custom Transformation 2</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg') %>
   </div>
 
   <h2>Using IO Objects</h2>
   <div class="svg">
     <%- fd = IO.sysopen(Rails.root.join("app/assets/images/iconmonstr-glasses-12-icon.svg"), "r") %>
     <%- io = IO.new(fd, "r") %>
-    <%= inline_svg(io, class: 'medium-blue') %>
+    <%= inline_svg_tag(io, class: 'medium-blue') %>
   </div>
 
   <h2>Custom Transformation With Default Value</h2>
   <div class="svg">
-    <%= inline_svg('iconmonstr-glasses-12-icon.svg') %>
+    <%= inline_svg_tag('iconmonstr-glasses-12-icon.svg') %>
   </div>
 
 </section>
