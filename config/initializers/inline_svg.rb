@@ -31,7 +31,7 @@ InlineSvg.configure do |config|
   #  filters: /\.svg/
   #)
 
-  config.asset_finder = InlineSvg::WebpackAssetFinder
+  #config.asset_finder = InlineSvg::WebpackAssetFinder
 
   # Examples of using custom transformations
   config.add_custom_transformation(attribute: :custom, transform: MyCustomTransform)
