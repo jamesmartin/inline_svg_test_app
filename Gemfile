@@ -9,8 +9,6 @@ gem 'webpacker', '~> 4.0'
 # Use edge Sprockets-rails for testing
 #gem 'sprockets-rails', github: 'rails/sprockets-rails'
 #
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 
