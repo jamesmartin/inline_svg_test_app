@@ -8,7 +8,6 @@ gem 'rails', '6.0.0.rc1'
 #gem 'sprockets-rails', github: 'rails/sprockets-rails'
 #
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 gem 'sassc-rails'
