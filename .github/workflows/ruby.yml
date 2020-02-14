@@ -13,6 +13,12 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+    - name: Set up Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Yarn install
+      run: yarn install --check-files
     - name: Build and test with Rake
       run: |
         gem install bundler
