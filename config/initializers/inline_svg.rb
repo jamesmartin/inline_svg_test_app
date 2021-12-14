@@ -1,4 +1,8 @@
 # Examples of all the configurable bits of inline_svg
+#
+# These are found in app/lib:
+require "my_custom_transform"
+require "default_transform"
 
 class AssetFile
   # Should return a String representing the SVG document requested by filename
