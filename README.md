@@ -6,6 +6,7 @@ A Rails application for testing the
 There are long-lived branches for different major Rails versions (to check
 compatibility):
 
+* [Rails 7.0.0.rc1](https://github.com/jamesmartin/inline_svg_test_app/tree/rails7)
 * [Rails 6.0.0.rc1 (Webpacker)](https://github.com/jamesmartin/inline_svg_test_app/tree/rails6-webpacker)
 * [Rails 6.0.0.rc1 (Sprockets)](https://github.com/jamesmartin/inline_svg_test_app/tree/rails6)
 * [Rails 5.2.3 (master)](https://github.com/jamesmartin/inline_svg_test_app/tree/master)
