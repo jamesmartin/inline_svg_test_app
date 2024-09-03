@@ -1,5 +1,8 @@
 # Examples of all the configurable bits of inline_svg
 
+require_relative '../../lib/default_transform'
+require_relative '../../lib/my_custom_transform'
+
 class AssetFile
   # Should return a String representing the SVG document requested by filename
   # This example always returns the same SVG from the public/ dir

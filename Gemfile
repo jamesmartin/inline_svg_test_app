@@ -2,14 +2,9 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.1.7.3'
+gem 'rails', '7.2.0'
 
-gem 'webpacker', '~> 4.0'
-
-# We need Rails 6 (because Webpacker - oh how I wish we could drop support for
-# this train wreck.) but psych 4 is broken with Rails 6.1.7.3. The joys of open
-# source maintenance.
-gem 'psych', '< 4'
+gem 'shakapacker', '8.0.1'
 
 # Use edge Sprockets-rails for testing
 #gem 'sprockets-rails', github: 'rails/sprockets-rails'

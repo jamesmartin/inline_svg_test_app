@@ -1,11 +1,49 @@
 {
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 20.0",
+    "yarn": "^1.22.21"
+  },
+  "packageManager": "yarn@1.22.21",
   "dependencies": {
-    "@rails/webpacker": "^4.0.7",
-    "jquery": "^3.4.1",
-    "rails-ujs": "^5.2.3",
-    "turbolinks": "^5.2.0"
+    "@babel/core": "7.24.9",
+    "@babel/plugin-transform-runtime": "7",
+    "@babel/preset-env": "7.25.0",
+    "@babel/runtime": "7.25.0",
+    "@types/babel__core": "7",
+    "@types/webpack": "5",
+    "babel-loader": "8",
+    "compression-webpack-plugin": "9",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss": "^8.4.40",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^16.1.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.6.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "shakapacker": "8.0.1",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "5",
+    "webpack": "5.93.0",
+    "webpack-assets-manifest": "5",
+    "webpack-cli": "5",
+    "webpack-merge": "5"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.7.1"
-  }
+    "@webpack-cli/serve": "^2.0.5",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "name": "app",
+  "babel": {
+    "presets": [
+      "./node_modules/shakapacker/package/babel/preset.js"
+    ]
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
