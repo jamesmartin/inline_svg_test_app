@@ -1,4 +1,4 @@
-<h1>Inline SVG on Rails 6 (Sprockets)</h1>
+<h1>Inline SVG on Rails <%= Rails::VERSION::MAJOR %> (Sprockets)</h1>
 
 <p>
   You'll find SVG assets in: <pre>./app/assets/images/</pre>
@@ -90,4 +90,9 @@
     <%- io = IO.new(fd, "r") %>
     <%= inline_svg_tag(io, class: 'medium-blue io-object') %>
   </div>
+
+  <h2>Using SVG as background image</h2>
+  <div class="size-sm svg-background" style="--svg-background-image: url('<%= inline_svg_data_url("iconmonstr-glasses-12-icon.svg") %>');"></div>
+  <div class="size-sm svg-background" style="--svg-background-image: url('<%= inline_svg_data_url("iconmonstr-glasses-12-icon.svg", style: "fill: green;") %>');"></div>
+  <div class="size-sm svg-background" style="--svg-background-image: url('<%= inline_svg_data_url("iconmonstr-glasses-12-icon.svg", style: "fill: red;") %>');"></div>
 </section>
