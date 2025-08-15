@@ -13,3 +13,13 @@
   height: 7em;
   fill: yellow;
 }
+
+.size-sm {
+  width: 5em;
+  height: 5em;
+}
+
+.svg-background {
+  background-image: var(--svg-background-image);
+  background-size: cover;
+}
